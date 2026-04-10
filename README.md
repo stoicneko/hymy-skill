@@ -7,6 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
 [![Nuwa](https://img.shields.io/badge/Made%20with-女娲.skill-orange)](https://github.com/alchaincyf/nuwa-skill)
+[![Claude Opus 4.6](https://img.shields.io/badge/Distilled%20by-Claude%20Opus%204.6-cc785c)](https://claude.ai)
 
 <br>
 
@@ -14,7 +15,8 @@
 
 <br>
 
-基于 2025-2026 年知识星球 5000+ 条一手语料（76K行+15K行原始发言）深度调研，<br>
+由 Claude Opus 4.6 驱动 13 个并行 Agent 完成深度蒸馏，<br>
+基于 2025-2026 年知识星球 5000+ 条一手语料（76K行+15K行原始发言）+ 3 篇付费长文，<br>
 提炼 8 个核心心智模型、8 条决策启发式和完整的表达DNA（含长文模式）。
 
 [看效果](#效果示例) · [安装](#安装) · [蒸馏了什么](#蒸馏了什么) · [调研来源](#调研来源)
