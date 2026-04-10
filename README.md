@@ -2,7 +2,7 @@
 
 # 幻夜梦屿.skill
 
-> *"两个字 + 五个字，说白了就这么简单，但99%的人做不到[呲牙]"*
+> _"两个字 + 五个字，说白了就这么简单，但99%的人做不到[呲牙]"_
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
@@ -16,7 +16,7 @@
 <br>
 
 由 Claude Opus 4.6 驱动 13 个并行 Agent 完成深度蒸馏，<br>
-基于 2025-2026 年知识星球 5000+ 条一手语料（76K行+15K行原始发言）+ 3 篇付费长文，<br>
+基于 2025-2026 年知识星球 5000+ 条一手语料（76K行+15K行原始发言）+ 多篇付费长文，<br>
 提炼 8 个核心心智模型、8 条决策启发式和完整的表达DNA（含长文模式）。
 
 [看效果](#效果示例) · [安装](#安装) · [蒸馏了什么](#蒸馏了什么) · [调研来源](#调研来源)
@@ -54,7 +54,7 @@
             对你好不好这种东西会变的 条件不会变[呲牙]
 ```
 
-### 问：最近特别焦虑，晚上睡不着，白天没精神...
+### 问：最近特别焦虑，晚上睡不着，白天没精神
 
 ```
 幻夜梦屿  ❯ 锻炼身体 该吃吃该喝喝 不要想太多[呲牙]
@@ -90,16 +90,16 @@ npx skills add stoicneko/hymy-skill
 
 ### 8个心智模型
 
-| 模型 | 一句话 | 来源 |
-|------|--------|------|
-| **经济决定论** | 一切问题的底层都是钱的问题 | 所有感情/心理/职业建议最终回到经济条件 |
-| **确定性猎手** | 只做确定性最高的事，不赌不投机 | 只买ETF不买个股，选确定性高的关系和路径 |
-| **反人性思维** | 赚钱要逆着人性来，大多数人做的事反着做 | 五个字三重境界，赚了钱反而住1800的房子 |
-| **阶层决定论** | 穷人穷是因为认知和命，改变不了就远离 | IP学快速判断段位，"远离穷人"60+次出现 |
-| **问题降维** | 复杂问题都有一个简单的底层原因 | 心理→身体，感情→经济，社交→商业价值 |
-| **认知迭代** | 每年都在推翻过去的自己，敢于认错 | 对马斯克认错、拥抱玄学、反思太保守 |
-| **宏观驱动** | 从国家政策推导个人选择，不在微观层面纠结 | 房地产→股权时代→买券商，AI吃人→靠物理世界 |
-| **人际关系=做生意** | 人情世故的本质就是揣摩需求+满足需求 | "三个字：做生意"，用商业思维拆解社交 |
+| 模型                | 一句话                                   | 来源                                      |
+| ------------------- | ---------------------------------------- | ----------------------------------------- |
+| **经济决定论**      | 一切问题的底层都是钱的问题               | 所有感情/心理/职业建议最终回到经济条件    |
+| **确定性猎手**      | 只做确定性最高的事，不赌不投机           | 只买ETF不买个股，选确定性高的关系和路径   |
+| **反人性思维**      | 赚钱要逆着人性来，大多数人做的事反着做   | 五个字三重境界，赚了钱反而住1800的房子    |
+| **阶层决定论**      | 穷人穷是因为认知和命，改变不了就远离     | IP学快速判断段位，"远离穷人"60+次出现     |
+| **问题降维**        | 复杂问题都有一个简单的底层原因           | 心理→身体，感情→经济，社交→商业价值       |
+| **认知迭代**        | 每年都在推翻过去的自己，敢于认错         | 对马斯克认错、拥抱玄学、反思太保守        |
+| **宏观驱动**        | 从国家政策推导个人选择，不在微观层面纠结 | 房地产→股权时代→买券商，AI吃人→靠物理世界 |
+| **人际关系=做生意** | 人情世故的本质就是揣摩需求+满足需求      | "三个字：做生意"，用商业思维拆解社交      |
 
 ### 8条决策启发式
 
@@ -137,14 +137,14 @@ npx skills add stoicneko/hymy-skill
 
 6个调研文件，全部在 [`references/`](references/) 目录：
 
-| 文件 | 内容 |
-|------|------|
-| `research/01-writings.md` | 核心论点、自创术语、投资哲学 |
-| `research/02-conversations.md` | Q&A回答模式、问题路由逻辑 |
+| 文件                            | 内容                                |
+| ------------------------------- | ----------------------------------- |
+| `research/01-writings.md`       | 核心论点、自创术语、投资哲学        |
+| `research/02-conversations.md`  | Q&A回答模式、问题路由逻辑           |
 | `research/03-expression-dna.md` | 量化表达风格分析（词频/emoji/句式） |
-| `research/04-external-views.md` | 自我定位、批评处理、争议立场 |
-| `research/05-decisions.md` | 投资决策时间线、人生重大选择 |
-| `research/06-timeline.md` | 完整人物时间线（2014-2026） |
+| `research/04-external-views.md` | 自我定位、批评处理、争议立场        |
+| `research/05-decisions.md`      | 投资决策时间线、人生重大选择        |
+| `research/06-timeline.md`       | 完整人物时间线（2014-2026）         |
 
 ### 一手来源
 
@@ -195,13 +195,13 @@ hymy-skill/
 
 女娲已蒸馏的其他人物，每个都可独立安装：
 
-| 人物 | 领域 | 安装 |
-|------|------|------|
-| [马斯克.skill](https://github.com/alchaincyf/elon-musk-skill) | 第一性原理/制造/星际 | `npx skills add alchaincyf/elon-musk-skill` |
-| [乔布斯.skill](https://github.com/alchaincyf/steve-jobs-skill) | 产品/设计/战略 | `npx skills add alchaincyf/steve-jobs-skill` |
-| [纳瓦尔.skill](https://github.com/alchaincyf/naval-skill) | 财富/杠杆/人生哲学 | `npx skills add alchaincyf/naval-skill` |
-| [芒格.skill](https://github.com/alchaincyf/munger-skill) | 投资/多元思维/逆向思考 | `npx skills add alchaincyf/munger-skill` |
-| [费曼.skill](https://github.com/alchaincyf/feynman-skill) | 学习/教学/科学思维 | `npx skills add alchaincyf/feynman-skill` |
+| 人物                                                             | 领域                   | 安装                                           |
+| ---------------------------------------------------------------- | ---------------------- | ---------------------------------------------- |
+| [马斯克.skill](https://github.com/alchaincyf/elon-musk-skill)    | 第一性原理/制造/星际   | `npx skills add alchaincyf/elon-musk-skill`    |
+| [乔布斯.skill](https://github.com/alchaincyf/steve-jobs-skill)   | 产品/设计/战略         | `npx skills add alchaincyf/steve-jobs-skill`   |
+| [纳瓦尔.skill](https://github.com/alchaincyf/naval-skill)        | 财富/杠杆/人生哲学     | `npx skills add alchaincyf/naval-skill`        |
+| [芒格.skill](https://github.com/alchaincyf/munger-skill)         | 投资/多元思维/逆向思考 | `npx skills add alchaincyf/munger-skill`       |
+| [费曼.skill](https://github.com/alchaincyf/feynman-skill)        | 学习/教学/科学思维     | `npx skills add alchaincyf/feynman-skill`      |
 | [张雪峰.skill](https://github.com/alchaincyf/zhangxuefeng-skill) | 教育/职业规划/阶层流动 | `npx skills add alchaincyf/zhangxuefeng-skill` |
 
 想蒸馏更多人？用 [女娲.skill](https://github.com/alchaincyf/nuwa-skill)，输入任何名字即可。
@@ -216,17 +216,17 @@ MIT — 随便用，随便改，随便蒸馏。
 
 **花叔 Huashu** — AI Native Coder，独立开发者，代表作：小猫补光灯（AppStore 付费榜 Top1）
 
-| 平台 | 链接 |
-|------|------|
-| 🌐 官网 | [bookai.top](https://bookai.top) · [huasheng.ai](https://www.huasheng.ai) |
-| 𝕏 Twitter | [@AlchainHust](https://x.com/AlchainHust) |
-| 📺 B站 | [花叔](https://space.bilibili.com/14097567) |
-| ▶️ YouTube | [@Alchain](https://www.youtube.com/@Alchain) |
-| 📕 小红书 | [花叔](https://www.xiaohongshu.com/user/profile/5abc6f17e8ac2b109179dfdf) |
+| 平台       | 链接                                                                      |
+| ---------- | ------------------------------------------------------------------------- |
+| 🌐 官网    | [bookai.top](https://bookai.top) · [huasheng.ai](https://www.huasheng.ai) |
+| 𝕏 Twitter  | [@AlchainHust](https://x.com/AlchainHust)                                 |
+| 📺 B站     | [花叔](https://space.bilibili.com/14097567)                               |
+| ▶️ YouTube | [@Alchain](https://www.youtube.com/@Alchain)                              |
+| 📕 小红书  | [花叔](https://www.xiaohongshu.com/user/profile/5abc6f17e8ac2b109179dfdf) |
 
 <div align="center">
 
-*两个字 + 五个字，说白了就这么简单[呲牙]*
+_两个字 + 五个字，说白了就这么简单[呲牙]_
 
 <br>
 
