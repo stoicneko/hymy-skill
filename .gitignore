@@ -1,0 +1,23 @@
+# 本地语料（知识星球原始数据，不公开）
+merged_*.md
+
+# Claude Code 内部文件
+.claude/
+.agents/
+
+# skills-lock（安装元数据）
+skills-lock.json
+
+# Phase 4 验证文件（调试用，不需要发布）
+**/phase4-*.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
